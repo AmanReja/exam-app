@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <form
+      id="reglog"
+      class="login_wrape"
+      onsubmit="reg(),event.preventDefault()"
+    >
+      <div>
+        <h2 style="color: #fff">Login</h2>
+        <div class="input_box">
+          <input
+            type="text"
+            placeholder="Enter your First name"
+            id="fname"
+            required
+          />
+        </div>
+        <div class="input_box">
+          <input type="text" placeholder="Enter your last name" id="lname" />
+        </div>
+        <div class="input_box">
+          <input type="text" placeholder="Enter your Phone number" id="phone" />
+        </div>
+        <div class="input_box">
+          <input id="EmailIn" type="text" placeholder="Enter your email" />
+          <!-- <label>Enter Your Email</label> -->
+        </div>
+        <div class="input_box">
+          <input
+            id="passIn"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <!-- <label>Enter Your password</label> -->
+        </div>
+        <div class="password_option">
+          <label for="Remamber">
+            <input type="checkbox" id="Remamber" />
+            <p>Remember Me</p>
+          </label>
+          <a href="#" onclick="localStorage.clear()">Forget password</a>
+        </div>
+
+        <button type="submit" id="register">register</button>
+        <div class="account_option">
+          <p>
+            Already have an account?<a
+              onclick='window.location.href="/index.html"'
+              class="reg"
+              >sign in</a
+            >
+          </p>
+        </div>
+      </div>
+    </form>
+    <script src="/script.js"></script>
+  </body>
+</html>

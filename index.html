@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form onsubmit="login(),event.preventDefault()" class="login_wrape">
+      <div>
+        <h2 style="color: #fff">Login</h2>
+        <div class="input_box">
+          <input
+            required
+            id="EmailIn"
+            type="text"
+            placeholder="Enter your email"
+          />
+          <!-- <label>Enter Your Email</label> -->
+        </div>
+        <div class="input_box">
+          <input
+            required
+            id="passIn"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <!-- <label>Enter Your password</label> -->
+        </div>
+        <div class="password_option">
+          <label for="Remamber">
+            <input type="checkbox" id="Remamber" />
+            <p>Remember Me</p>
+          </label>
+          <a onclick="localStorage.clear()" href="#">Forget password</a>
+        </div>
+        <button type="submit" id="log">Log in</button>
+        <div class="account_option">
+          <p>
+            Don't have an account?<a class="reg" href="/register.html"
+              >Register</a
+            >
+          </p>
+        </div>
+      </div>
+    </form>
+    <div class="info">
+      <h3>information</h3>
+      <div class="information">
+        <h3>Name</h3>
+        <h3>Action</h3>
+      </div>
+      <div class="count">
+        <div class="name-container"></div>
+        <div class="action-container"></div>
+      </div>
+
+      <!-- <button><a href="/quiz/quiz.html">Start Exam</a></button> -->
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

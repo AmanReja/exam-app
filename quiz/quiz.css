@@ -1,0 +1,6 @@
+.quiz{
+    list-style:decimal;
+}
+.chois li{
+    list-style:upper-alpha;
+}
