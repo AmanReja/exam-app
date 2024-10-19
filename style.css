@@ -219,6 +219,10 @@ a{
     top: 14px;
       
     }
+    #register{
+        position: relative;
+        right: 17px;
+    }
 
    
 }
