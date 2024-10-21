@@ -5,7 +5,8 @@ const items = [
     opt2: "U.P.",
     opt3: "West Bengal",
     opt4: "Maharashtra",
-    name: "question0"
+    // name: "question0",
+    answer: "a"
   },
   {
     question:
@@ -14,16 +15,18 @@ const items = [
     opt2: "23 May",
     opt3: "24 May",
     opt4: "25 May",
-    name: "question1"
+    // name: "question1",
+    answer: "C"
   },
   {
     question:
       "The Maitree Express and Bandhan Express trains connect India with which of the following countries? ",
-    opt1: " Mynamar",
     opt2: "Pakistan",
     opt3: " Nepal",
     opt4: "Bangladesh",
-    name: "question2"
+    opt1: " Mynamar",
+    // name: "question2",
+    answer: "b"
   },
   {
     question: "SEBI was set up in",
@@ -31,7 +34,8 @@ const items = [
     opt2: "1980",
     opt3: "1984",
     opt4: "1988",
-    name: "question3"
+    // name: "question3",
+    answer: "d"
   },
   {
     question:
@@ -40,7 +44,8 @@ const items = [
     opt2: " Lalu Prasad Yadav",
     opt3: "Nitish Kumar",
     opt4: " Mamata Banerjee",
-    name: "question4"
+    // name: "question4",
+    answer: "a"
   },
   {
     question: "The largest producer of Bauxite in the world is",
@@ -48,7 +53,8 @@ const items = [
     opt2: "Jamaica",
     opt3: " Chile",
     opt4: "Australia",
-    name: "question5"
+    // name: "question5",
+    answer: "C"
   },
   {
     question:
@@ -57,7 +63,8 @@ const items = [
     opt2: "Jamalpur",
     opt3: " Nasik",
     opt4: "Pune",
-    name: "question6"
+    // name: "question6",
+    answer: "d"
   },
   {
     question: "Which day is celebrated as World Suicide Prevention Day?",
@@ -65,6 +72,7 @@ const items = [
     opt2: " 23 August",
     opt3: " 9 September",
     opt4: "10 September",
-    name: "question7"
+    // name: "question7",
+    answer: "C"
   }
 ];

@@ -6,10 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="/quiz/quiz.css" />
   </head>
-  <body>
+  <body onload="displayQuestion()">
     <div>
       <ul class="quiz"></ul>
     </div>
+    </div>
+    </div>
+    
+    <div class="btndiv">
+      <button  id="next" onclick="next()" class="subBtn">next</button>
+      <button  id="preV" onclick="previous()" class="subBtn">previous</button>
+    </div>
+
+   <div><button style="display: none;" id="sub" onclick="calAns()" class="subBtn">submit</button></div>
+   
+    <br>
+    <br>
+    
+    <button onclick="window.location.reload()" class="subBtn">reset</button>
+    <div class="result">result</div>
     <script src="/quiz/quiz.js"></script>
     <script src="/quiz/quiz1.js"></script>
   </body>
