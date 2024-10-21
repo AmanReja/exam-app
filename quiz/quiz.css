@@ -41,6 +41,11 @@
         position: relative;
         top: -19px;
     }
-    
+    .quiz li>h4{
+        padding: 0px 5px;
+        position:relative;
+        top:0;
+        right:10px;
+    }
     
 }
