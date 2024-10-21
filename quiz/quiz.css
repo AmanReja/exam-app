@@ -30,3 +30,17 @@
     float: left;
     margin: 0 12px;
 }
+@media only screen and (max-width:600px) {
+    body,html{
+        overflow-x: hidden;
+    }
+    .quiz{
+      
+        width: 100%;
+        padding: 41px 36px;
+        position: relative;
+        top: -19px;
+    }
+    
+    
+}
