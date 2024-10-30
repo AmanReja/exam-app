@@ -235,7 +235,9 @@ function next() {
 }
 
 function calAns() {
+  checkAns();
   let marks = 0;
+
   for (let i = 0; i < items.length; i++) {
     if (items[i].answer == ansStore[i]) {
       marks++;
@@ -251,7 +253,7 @@ function checkAns() {
   const opt4 = document.getElementById("opt4");
 
   let userAnswer = "";
-  console.log(opt1);
+  // console.log(opt1);
   if (opt1.checked == true) {
     userAnswer = "a";
   } else if (opt2.checked == true) {
@@ -262,6 +264,5 @@ function checkAns() {
     userAnswer = "d";
   }
   ansStore[index] = userAnswer;
-  console.log(ansStore);
+  console.log(ansStore[index] + " : " + items[index].answer);
 }
-console.log(userAnswer);

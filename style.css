@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    background-color: #19181d;
+    background-color: #57c4df;
 }
 
 
@@ -40,6 +40,7 @@ body::before{
     position: relative;
     top: 30px;
     left: 37%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     
 }
@@ -248,4 +249,8 @@ a{
 .warnBtn{
     width: 340px;
     height: 47px;
+    background-color: #fff;
+}
+.warnds{
+    color: #fff;
 }

@@ -16,7 +16,7 @@ const items = [
     opt3: "24 May",
     opt4: "25 May",
     // name: "question1",
-    answer: "C"
+    answer: "c"
   },
   {
     question:
@@ -54,7 +54,7 @@ const items = [
     opt3: " Chile",
     opt4: "Australia",
     // name: "question5",
-    answer: "C"
+    answer: "c"
   },
   {
     question:
@@ -73,6 +73,6 @@ const items = [
     opt3: " 9 September",
     opt4: "10 September",
     // name: "question7",
-    answer: "C"
+    answer: "c"
   }
 ];

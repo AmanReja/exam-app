@@ -24,7 +24,7 @@ function login(e) {
   if (user) {
     window.location.href = "/quiz/quiz.html";
   } else {
-    login_wrape.innerHTML = `<img src="/img/3m.png" alt=""></br><h4>You dont have an account</h4></br><button class="warnBtn" onclick="window.location.href = 'index.html'">ok</button>`;
+    login_wrape.innerHTML = `<img src="/img/3m.png" alt=""></br><h4 class="warnds">You dont have an account</h4></br><button class="warnBtn" onclick="window.location.href = 'index.html'">ok</button>`;
   }
 
   //read email and pass
@@ -56,7 +56,7 @@ function reg() {
     localStorage.setItem("allUser", JSON.stringify(allUser));
   }
   // window.location.href = "";
-  reglog.innerHTML = `<img src="/img/1m.png" alt=""></br><h4>You information was succesfully registered</h4></br><button class="warnBtn" onclick="window.location.href = 'index.html'">ok</button>`;
+  reglog.innerHTML = `<img src="/img/1m.png" alt=""></br><h4  class="warnds">You information was succesfully registered</h4></br><button class="warnBtn" onclick="window.location.href = 'index.html'">ok</button>`;
   // window.location.reload();
 }
 
